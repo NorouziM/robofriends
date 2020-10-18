@@ -2,6 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
+// eslint-disable-next-line
+import tachyons from "tachyons";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(<App />, document.getElementById("root"));
